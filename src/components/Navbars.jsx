@@ -25,7 +25,7 @@ const Navbar = () => {
       path: "/about",
     },
     {
-      display: "Services",
+      display: "Practice Areas",
       path: "/services",
     },
     

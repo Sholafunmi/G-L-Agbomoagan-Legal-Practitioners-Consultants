@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import About from './pages/About.jsx'
 import Services from './pages/Services.jsx'
+import Contact from './pages/Contact.jsx'
 
 
 // react roter dom
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "services",
     element: <Services />,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
   },
 ]);
 
