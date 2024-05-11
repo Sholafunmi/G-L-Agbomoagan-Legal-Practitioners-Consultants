@@ -9,7 +9,7 @@ const Hero = () => {
       {/* bg-[#291d0d]  */}
 
       <div className="heroContent h-[90vh] w-full flex flex-col justify-center">
-        <div className="herobody1 ml-[5%] flex flex-col gap-4 playfair">
+        <div className="herobody1 ml-[5%] flex flex-col gap-4 playfair i">
           <p className="w-fit font-bold text-4xl lg:text-6xl text-gray-50 ">
             {" "}
             <span className="text-[#f8ab4e]">
@@ -20,6 +20,7 @@ const Hero = () => {
                {" "}
             </span>{" "}
             <br /> Legal Practitioners & Consultants
+            {/* hid */}
           </p>
           <p className="text-gray-50 text-2xl">
             Professional Lawyers At Your Services
