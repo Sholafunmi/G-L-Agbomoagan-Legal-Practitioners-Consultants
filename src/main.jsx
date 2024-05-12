@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import About from './pages/About.jsx'
-import Services from './pages/Services.jsx'
-import Contact from './pages/Contact.jsx'
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import About from "./pages/About.jsx";
+import Practice_Areas from "./components/Home/Practice_Areas.jsx";
+import Contact from "./pages/Contact.jsx";
+import Appointment from "./pages/Appointment.jsx";
 
 // react roter dom
 import {
@@ -13,8 +13,7 @@ import {
   RouterProvider,
   Route,
   Link,
-} from "react-router-dom"; 
-
+} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -27,15 +26,19 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "services",
-    element: <Services />,
+    path: "practice_Areas",
+    element: <Practice_Areas />,
   },
   {
     path: "contact",
     element: <Contact />,
   },
+  {
+    path: "appointment",
+    element: <Appointment />,
+  },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
-)
+);

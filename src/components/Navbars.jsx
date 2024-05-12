@@ -4,6 +4,9 @@ import Logo from "/logo.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
+// import { IoMailOutline } from "react-icons/io5";
+// <IoMailOutline />
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const openMenu = () => setNav(!nav);
@@ -26,7 +29,11 @@ const Navbar = () => {
     },
     {
       display: "Practice Areas",
-      path: "/services",
+      path: "/practice_Areas",
+    },
+    {
+      display: "Book An Appointment",
+      path: "/appointment",
     },
     
     {
@@ -37,8 +44,8 @@ const Navbar = () => {
 
   return (
     <nav>
-      {/* <div className="fixed z-10 w-full h-[120px] flex justify-between md:justify-start md:gap-[15%] lg:gap-[20%] items-center px-2 md:px-[5%] bg-[#fff] text-gray-300 border-b-4 "> */}
-      <div className=" playfair flex gap-5  justify-between items-center w-fll h-fit px-[5%] py-[4%] md:py-[2%] bg-[#291d0d] font-thin">
+      {/* <div className="fixed  w-full h-[120px] flex justify-between md:justify-start md:gap-[15%] lg:gap-[20%] items-center px-2 md:px-[5%] bg-[#fff] text-gray-300 border-b-4 "> */}
+      <div className="  playfair flex gap-5  justify-between items-center w-full min-h-[15%]  px-[5%] py-[4%] md:py-[2%] bg-[#291d0d] font-thin">
         <Link
           to="/"
           onClick={scrollToTop}
@@ -102,9 +109,11 @@ const Navbar = () => {
           </div>
         </ul>
 
-        <div className="hidden lg:flex  contact font-bold text-[#AD895C]">
+        <div className="hidden lg:flex gap-5 items-center  contact font-bold text-[#AD895C]">
           <a href="tel:+2347035610109">(234)70-3561-0109</a>
+          
         </div>
+       
       </div>
     </nav>
   );
