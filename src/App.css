@@ -37,8 +37,34 @@ background-repeat: no-repeat;
   font-style: normal;
 }
 
+/* css image shapes  */
+.trapezoid {
+  border-bottom: 10px solid #333;
+  border-left: 20px solid transparent;
+  border-right: 90px solid transparent;
+  height: 0;
+  width: 300px;
+}
+.cylinder {
+  width: 50px;
+  height: 70px;
+  /* border-radius: horziontal values / vertical values */
+  border-radius: 50px 50px / 20px 20px;
+  background: #333;
+}
 
-
+.aboutImg{
+  background-image: url(./assets/law3.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.values2img{
+background-image: url(../src//assets/familyLaw2.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+}
 
 
 /* #root {
