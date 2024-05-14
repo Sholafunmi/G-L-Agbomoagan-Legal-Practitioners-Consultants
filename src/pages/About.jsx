@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbars from "../components/Navbars";
-
+import Footer from "../components/Footer";
 const About = () => {
   return (
     <>
@@ -79,12 +79,13 @@ const About = () => {
               </div>
               
             </div>
-            <div className="values2img w-[30%] border border-red-500">
+            <div className="values2img w-[30%] border-4 border-[#f8ab4e]">
               
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

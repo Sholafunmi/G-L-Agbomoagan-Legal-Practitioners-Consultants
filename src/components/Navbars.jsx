@@ -36,10 +36,10 @@ const Navbar = () => {
       path: "/appointment",
     },
     
-    {
-      display: "Contact Us",
-      path: "/contact",
-    },
+    // {
+    //   display: "Contact Us",
+    //   path: "/contact",
+    // },
   ];
 
   return (

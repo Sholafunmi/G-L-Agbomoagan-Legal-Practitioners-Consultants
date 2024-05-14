@@ -3,6 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 import Navbars from "./../components/Navbars";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const BookSession = () => {
@@ -17,7 +18,7 @@ const BookSession = () => {
       {" "}
       <Navbars />
       <div className="bg-gray-100 min-h-screen py-12">
-        <div className="container mx-auto text-center">
+        <div className="appointment container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book a Session</h2>
           <div className="max-w-md mx-auto">
             <DatePicker
@@ -41,6 +42,7 @@ const BookSession = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

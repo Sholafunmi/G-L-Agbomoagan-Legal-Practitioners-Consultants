@@ -54,16 +54,31 @@ background-repeat: no-repeat;
 }
 
 .aboutImg{
-  background-image: url(./assets/law3.avif);
+  background-image: url(./assets/law4.avif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .values2img{
-background-image: url(../src//assets/familyLaw2.webp);
+background-image: url(../src//assets/law3.avif);
 background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
+}
+/* .appointment{
+  
+} */
+.contactContent{
+  background-image: url(../src//assets/law3.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+.footerBack{
+  background-image: url(../src//assets/law4.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 

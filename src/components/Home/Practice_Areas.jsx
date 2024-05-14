@@ -1,6 +1,6 @@
 import React from "react";
 // import Navbar from "../components/Navbar";
-// import Navbars from "../Navbars";
+import Navbars from "../Navbars";
 // import imgPA1 from "../../assets/law1.avif";
 
 import contractLaw from "../../assets/contractLaw.jpg";
@@ -12,61 +12,61 @@ import { Link } from "react-router-dom";
 const Practice_Areas = () => {
   const practiceAreas = [
     {
-      title: "Personal Injury",
+      title: "Corperate and Commercial Law",
       image: contractLaw,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       path: "/about",
     },
     {
-      title: "Family Law",
+      title: "Civic and Criminal Litigation",
       image: familyLaw,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       path: "/contact",
     },
     {
-      title: "Corporate Law",
+      title: "Real Estate & Property Management",
       image: familyLaw2,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       path: "/about",
     },
 
     {
-      title: "Corporate Law",
+      title: "Business Advisory & Debt Recovery",
       image: familyLaw2,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       path: "/about",
     },
     // Add more practice areas as needed
     {
-      title: "Personal Injury",
+      title: "Compliance & Corporate General Service",
       image: contractLaw,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       path: "/about",
     },
     {
-      title: "Family Law",
+      title: "Cross Border Legal Services",
       image: familyLaw,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       path: "/contact",
     },
-    {
-      title: "Corporate Law",
-      image: familyLaw2,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      path: "/about",
-    },
+    // {
+    //   title: "Corporate Law",
+    //   image: familyLaw2,
+    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   path: "/about",
+    // },
 
-    {
-      title: "Corporate Law",
-      image: familyLaw2,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      path: "/about",
-    },
+    // {
+    //   title: "Corporate Law",
+    //   image: familyLaw2,
+    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   path: "/about",
+    // },
   ];
 
   return (
     <>
-      {/* <Navbars /> */}
+      <Navbars />
       <div className="w-full min-h-screen px-[5%] py-12  playfair">
         <div className="container mx-auto text-center pb-10">
           <h2 className="text-3xl font-bold mb-8 border-b-4 border-[#f8ab4e] w-fit">Practice Areas</h2>
